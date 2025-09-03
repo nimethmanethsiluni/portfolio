@@ -3,19 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Project</title>
+    <title>Nimethma Nethsiluni - Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
+   
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Web Project</h1>
-    </header>
-    <main>
-        <p>This is a simple web application demonstrating HTML, CSS, and JavaScript integration.</p>
-    </main>
+    <nav>
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">AC</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="theme-toggle" onclick="toggleTheme()">🌙</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nimethma Nethsiluni</h1>
+                <p class="subtitle">Full Stack Developer & UI/UX Designer</p>
+                <p class="description">I create beautiful, functional web applications that solve real-world problems. With expertise in modern technologies and a passion for clean design, I bring ideas to life.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-img">👨‍💻</div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Developer</h3>
+                    <p>With over 5 years of experience in web development, I specialize in creating responsive, user-friendly applications using modern technologies. I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends.</p>
+                    <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community through blog posts and mentoring.</p>
+                    <div class="skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🚀</div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard. Built with modern technologies for optimal performance.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization dashboard with interactive charts and customizable widgets. Processes millions of data points with lightning speed.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">🎵</div>
+                    <div class="project-content">
+                        <h3>Music Streaming App</h3>
+                        <p>A Spotify-like music streaming application with playlist management, social features, and recommendation algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <span>alex@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <span>linkedin.com/in/alexchen</span>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="mailto:alex@example.com" class="btn btn-primary">Send Email</a>
+                    <a href="#" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2023 My Web Project</p>
+        <div class="container">
+            <p>&copy; 2025 Alex Chen. All rights reserved. Built with ❤️ and lots of coffee.</p>
+        </div>
     </footer>
+
     <script src="scripts/app.js"></script>
-</body>
+</body>    
 </html>
