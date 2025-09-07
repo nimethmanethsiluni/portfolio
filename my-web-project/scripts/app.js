@@ -85,7 +85,7 @@
 
         // Typing animation for hero text
         function initTypingAnimation() {
-            const text = "Full Stack Developer & UI/UX Designer";
+            const text = "Undergraduate in Information Systems | Faculty of Computing | Sabaragamuwa University of Sri Lanka";
             const subtitle = document.querySelector('.hero .subtitle');
             let index = 0;
             
